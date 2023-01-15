@@ -1,0 +1,63 @@
+
+/*   "IMPORTANT FORMAT SPECIFIERS":
+          1. %c --> for chr
+          2. %f --> for float
+          3. %d --> for int
+          4. %l --> for long int
+          5. %lf --> for double
+          6. %Lf --> for long double   */
+#include<stdio.h>
+int main(){
+	int a=84;
+	float b = 84.98455;
+	printf("the value of a is %d and the value of b is %f\n",a,b); 
+  
+	printf("the value of a is %d and the value of b is %.4f\n",a,b);     
+  
+  printf("The value of b is %9.2f\n",b); //9 decimal ke space me 4 decimal number ke accuracy me b ko print kro. 
+  
+  printf("nand the value of b is %-9.2f",b);// if using - spaces will be at last
+     
+	
+	
+/* There are two ways to express constants:
+1.# define preprosser.
+2. using const method. */
+
+// Using 1. #define preprosser.
+
+#include<iostream>
+#define PI 3.14  (no need of ;)
+int main(){
+    printf("%d\n",PI); 
+	// PI=78.545; // cannot be changed ,because it is already defined at top (38 line).
+	 printf("%d\n",PI);
+   
+   //using 2. const
+	  const int a= 56; 
+	 //a=564; const --> cannot be changed. , if we do then it will give error.
+	 printf("%d\n",a);
+	
+  
+/* escape sequences--->
+1.\n-for new line.
+2.\a-> for alarm or beep.
+3.\b-> for backspace.
+4.\t-> for tab(horizontal).
+5.\\-> for backslash.(to print \ ,we use //)
+6.\'-> for single qoute.
+7.\"-> for double qoute.*/
+
+	 
+	 // escape sequences........
+	 printf("\a\n");
+	 printf("\\\n");
+	 printf("\\n\n");// this will given \n/
+	 printf("\b helo fewf\n");    
+	 printf("\t hello world\n");   
+	 printf("\'");                
+	 printf("\'");
+}
+	return 0;
+	
+}
