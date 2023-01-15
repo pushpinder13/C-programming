@@ -1,0 +1,46 @@
+#include<stdio.h>
+int main(){
+	int a,b;
+	a=64;
+	b=49;
+  
+  // arithmetic operators.
+	printf("a+b = %d\n",a+b);
+	printf("a-b = %d\n",a-b);
+	printf("a*b = %d\n",a*b);
+	printf("a/b = %d\n",a/b); 
+
+
+	//relational operators.                          
+    printf("a==b = %d\n",a==b);
+   	printf("a!=b = %d\n",a!=b);
+    printf("a>b = %d\n",a>b);
+    printf("a<b = %d\n",a<b);
+    printf("a<=b = %d\n",a<=b);
+    printf("a>=b = %d\n",a>=b);
+  
+  
+    //logical operators.
+    a=5;
+    b=75;
+    printf("a&&b = %d\n",a&&b);
+    printf("a||b = %d\n",a||b);
+    printf("a!b = %d\n",!b);
+   
+   
+  
+    //bitwise operators.
+   	printf("a&b = %d\n",a&b);   
+   	printf("a|b = %d\n",a|b);
+   	printf("a^b = %d\n",a^b);  
+	
+
+
+	//	assignment operator.
+	a=50;
+	b=40;
+	printf("a==b = %d\n",a==b);
+	printf("a+=b = %d\n",a+=b);
+	printf("a-=b = %d\n",a-=b); 
+	printf("a*=b = %d\n",a*=b);
+	printf("a/=b = %d\n",a/=b); 
