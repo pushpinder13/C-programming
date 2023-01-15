@@ -4,23 +4,22 @@ int main(){
 	a=64;
 	b=49;
   
-  // arithmetic operators.
+// arithmetic operators.
 	printf("a+b = %d\n",a+b);
 	printf("a-b = %d\n",a-b);
 	printf("a*b = %d\n",a*b);
 	printf("a/b = %d\n",a/b); 
 
-
-	//relational operators.                          
+//relational operators.                          
     printf("a==b = %d\n",a==b);
-   	printf("a!=b = %d\n",a!=b);
+    printf("a!=b = %d\n",a!=b);
     printf("a>b = %d\n",a>b);
     printf("a<b = %d\n",a<b);
     printf("a<=b = %d\n",a<=b);
     printf("a>=b = %d\n",a>=b);
   
   
-    //logical operators.
+//logical operators.
     a=5;
     b=75;
     printf("a&&b = %d\n",a&&b);
@@ -29,14 +28,13 @@ int main(){
    
    
   
-    //bitwise operators.
+ //bitwise operators.
    	printf("a&b = %d\n",a&b);   
    	printf("a|b = %d\n",a|b);
    	printf("a^b = %d\n",a^b);  
 	
 
-
-	//	assignment operator.
+//assignment operator.
 	a=50;
 	b=40;
 	printf("a==b = %d\n",a==b);
