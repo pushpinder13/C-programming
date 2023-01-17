@@ -1,0 +1,44 @@
+/* Types of Loops :
+if , if-else ,else-if ladder , nested if */
+
+#include<stdio.h>
+int main(){
+	int age;
+	printf("Enter your age\n");
+	scanf("%d",&age);
+	printf("you have entered your %d as your age.\n",age);
+	if (age>60){
+		printf("you are now too old.\n");
+    }  
+	if (age>=18){
+		printf("you are eligible to vote.\n");
+	}
+	else if (age<18){
+		printf("you are not eligible to vote.\n");
+	}
+	
+	
+	//  for pratice.
+	// Ask user that in how many he/she is passed and if in maths and science then (won 45) and maths ,science respectivily (won 15). 
+    
+	int a;
+    printf("\n");
+    printf("enter how many exams you have passed\n");
+    
+    printf("\n");
+    printf("For maths and science,Enter 3\n");
+    printf("For maths,Enter 2\n");
+    printf("For science,Enter 1\n");
+    scanf("%d",&a);
+    
+    if (a==1 or a==2){
+    	printf("you have won $15");
+	}
+	else if (a==3){
+		printf("you have won $45");
+	}
+	else{
+		printf("Wrong choice");
+	}
+	return 0;
+}
