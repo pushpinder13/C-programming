@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main(){
+ 
+	char name;
+	printf("enter your name\n");
+	scanf("%c",&name);
+	switch(name){
+		case 1:
+			printf("your age is 15");
+			break;
+		case 2:
+			printf("your age is 16");
+			break;
+		case 3:
+			printf("your age is 17");
+			break;
+		case 4:
+			printf("your age is 18");
+			break;
+	}
+}
