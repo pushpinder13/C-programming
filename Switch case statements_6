@@ -1,0 +1,74 @@
+/* 1. Switch is alternate of if else
+
+Advantages of switch over if else:
+1.Less messinass than if else.
+
+Default in  switch:
+if any case didn't match with given input by user,it will print default case value.
+
+Disadvantage of switch:
+if any case match ,then it will executeing again and again,
+                                so we have to use break(but it's not mandatory but, then it will print match case value and default value).
+
+Rules of switch:
+IMPORTANT  1."Switch expression must be "int or char""
+TMPORTANT  2."Case value must be an int or char".
+3.Case must be inside the switch.
+4.Break is not mandatory(if we want to print all cases value,then we can avoid  break). */
+ 
+
+#include<stdio.h>
+int main(){
+	int age , marks , weight;
+	printf("enter your age\n");
+	scanf("%d",&age);
+
+	
+	switch(age){
+		case 16:
+			printf("the age is 16\n");
+			break;
+		case 17:
+			printf("the age is 17\n");
+			break;
+		case 18:
+			printf("the age is 18\n");
+			break;
+		default :
+			printf( "age is not 16 , 17 and  18 \n");
+
+
+	} 
+	
+	//NESTED SWITCH:
+	printf("\n");
+	printf("enter your age\n");
+	scanf("%d",&age);
+	printf("enter your marks\n");
+	scanf("%d",&marks);
+	
+	
+	switch(age){
+		case 18:
+			printf("the age is 18\n");
+			switch(marks){                 // we have to use nested switch after one case min.. ,.
+			case 45:
+				printf("yours marks are 45.\n");
+				break;
+			case 55:
+				printf("your marks are 55\n");
+			
+				break;
+		case 19:
+			printf("the age is 19\n");
+			break;
+		case 20:
+			printf("the age is 20\n");
+			break;
+		default :
+			printf( "age is not 18 , 19 or 20 \n");
+	
+}
+}
+
+}
