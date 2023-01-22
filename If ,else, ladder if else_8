@@ -1,0 +1,20 @@
+/* Types of if-else :
+if , if-else ,if else-ifladder , nested if */
+#include<stdio.h>
+int main(){
+	int age;
+	printf("Enter your age\n");
+	scanf("%d",&age);
+	printf("you have entered your %d as your age.\n",age);
+	if (age>60){
+		printf("you are now too old.\n");
+    }  
+	if (age>=18){
+		printf("you are eligible to vote.\n");
+	}
+	else if (age<18){
+		printf("you arenot eligible to vote.\n");
+	}
+	
+	
+	
